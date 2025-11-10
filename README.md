@@ -348,5 +348,3 @@ Para preguntas o problemas, consulta la documentación incluida:
 - INDICE.md para navegación completa
 
 ---
-
-Desarrollado con ❤️ para la comunidad agrícola
