@@ -1,0 +1,119 @@
+╔══════════════════════════════════════════════════════════════╗
+║         AGROASISTENTE BACKEND - PROYECTO COMPLETO           ║
+╚══════════════════════════════════════════════════════════════╝
+
+📦 CONTENIDO DEL PAQUETE
+═══════════════════════════════════════════════════════════════
+
+📚 DOCUMENTACIÓN (9 archivos)
+─────────────────────────────────────────────────────────────
+  ⭐ START_HERE.md        - PUNTO DE ENTRADA PRINCIPAL
+  📋 RESUMEN.md           - Visión general ejecutiva
+  ⚡ QUICKSTART.md        - Setup rápido (15-30 min)
+  📖 README.md            - Manual completo
+  🏗️ ARCHITECTURE.md      - Diseño técnico + diagramas
+  💡 EXAMPLES.md          - Casos de uso reales
+  ❓ FAQ.md              - Preguntas + troubleshooting
+  🚀 DEPLOYMENT.md       - Guía de producción
+  🗺️ INDICE.md            - Navegación completa
+  📦 MANIFEST.txt        - Este archivo
+
+💻 CÓDIGO PYTHON (872 líneas)
+─────────────────────────────────────────────────────────────
+  📂 app/
+     ├── main.py                  120 líneas - FastAPI app
+     ├── config.py                 35 líneas - Configuración
+     ├── models/
+     │   └── schemas.py            70 líneas - Modelos Pydantic
+     ├── services/
+     │   ├── chatwoot.py           85 líneas - Cliente Chatwoot
+     │   ├── gemini.py            145 líneas - IA + Tools
+     │   ├── transcription.py     130 líneas - Speech-to-Text
+     │   └── bigquery.py           95 líneas - Base de datos
+     └── handlers/
+         └── webhook.py           192 líneas - Lógica principal
+
+⚙️ CONFIGURACIÓN
+─────────────────────────────────────────────────────────────
+  .env.example               Template de variables
+  requirements.txt           11 dependencias Python
+  .gitignore                 Archivos a ignorar
+
+🧪 TESTING
+─────────────────────────────────────────────────────────────
+  test_webhook.py            Script de pruebas automatizadas
+
+═══════════════════════════════════════════════════════════════
+
+✅ CARACTERÍSTICAS IMPLEMENTADAS
+═══════════════════════════════════════════════════════════════
+
+🎯 CORE FEATURES
+  ✓ Webhook de Chatwoot
+  ✓ Procesamiento de texto
+  ✓ Transcripción de audio (2 opciones)
+  ✓ IA con Gemini + Function Calling
+  ✓ Inserción en BigQuery
+  ✓ Respuestas contextuales
+  ✓ Enlace a dashboard
+
+🔧 FUNCIONALIDADES AVANZADAS
+  ✓ 11 categorías de gastos
+  ✓ System prompt personalizado
+  ✓ Validación con Pydantic
+  ✓ Arquitectura async
+  ✓ Manejo de errores robusto
+  ✓ Logs con emojis
+  ✓ Configuración por .env
+
+═══════════════════════════════════════════════════════════════
+
+🛠️ STACK TECNOLÓGICO
+═══════════════════════════════════════════════════════════════
+
+Backend:       Python 3.11 + FastAPI 0.109.0
+IA:            Google Gemini 1.5 Flash
+Transcripción: Google Speech-to-Text / OpenAI Whisper
+Base de Datos: Google BigQuery
+Mensajería:    Chatwoot API
+Dashboard:     Looker Studio
+Validación:    Pydantic 2.5.3
+
+═══════════════════════════════════════════════════════════════
+
+📊 ESTADÍSTICAS
+═══════════════════════════════════════════════════════════════
+
+Total archivos:           ~30
+Archivos Python:          11 (872 líneas)
+Archivos Markdown:         9
+Archivos configuración:    3
+Dependencias:             11
+
+Tiempo estimado setup:    15-30 minutos
+Tiempo a producción:      1-2 horas
+Costo mensual (1K users): $30-75
+
+═══════════════════════════════════════════════════════════════
+
+🚀 PARA EMPEZAR
+═══════════════════════════════════════════════════════════════
+
+1. Abre START_HERE.md
+2. Sigue QUICKSTART.md
+3. Prueba con test_webhook.py
+4. Lee README.md para más detalles
+
+═══════════════════════════════════════════════════════════════
+
+📝 LICENCIA: MIT
+🌍 IDIOMA: Español
+👥 USO: Comercial y Personal
+⭐ ESTADO: Production-Ready
+
+═══════════════════════════════════════════════════════════════
+
+Desarrollado con ❤️ para la comunidad agrícola
+Versión 1.0.0 - Enero 2025
+
+═══════════════════════════════════════════════════════════════
